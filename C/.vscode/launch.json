@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "g++.exe - 生成和调试活动文件",
+            "name": "g++.exe - 生成和调试活动文件",      //g++.exe文件
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
@@ -13,9 +13,9 @@
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
-            "externalConsole": false, // 外部控制台开关
+            "externalConsole": true, // 外部控制台开关
             "MIMode": "gdb",
-            "miDebuggerPath": "F:\\MinGw_W64\\mingw64\\bin\\gdb.exe",
+            "miDebuggerPath": "F:\\MinGw_W64\\mingw64\\bin\\gdb.exe",    //mingw中gdb.exe的地址
             "setupCommands": [
                 {
                     "description": "为 gdb 启用整齐打印",

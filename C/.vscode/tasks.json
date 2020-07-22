@@ -6,7 +6,7 @@
         {
             "type": "process",
             "label": "C/C++: g++.exe build active file",
-            "command": "F:\\MinGw_W64\\mingw64\\bin\\g++.exe",
+            "command": "F:\\MinGw_W64\\mingw64\\bin\\g++.exe",   //mingw中g++的地址
             "args": [
                 "-g",
                 "-fexec-charset=UTF-8",
@@ -16,7 +16,7 @@
                 "-std=c++11"
             ],
             "options": {
-                "cwd": "F:\\MinGw_W64\\mingw64\\bin"
+                "cwd": "F:\\MinGw_W64\\mingw64\\bin"    //就是mingw的地址
             },
             "problemMatcher": [
                 "$gcc"

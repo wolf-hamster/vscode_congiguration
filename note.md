@@ -11,7 +11,10 @@ Ctrl+F5 -> 运行
 
 Code-Runner 运行
 
+##特别强调
 
+配置中"includePath"中内容需要在Windows PowerShell中输入"g++ -v -E -x c++ -"命令得到
+为最后的地址参数
 
 # Java
 
@@ -25,3 +28,4 @@ Code-Runner 运行
 # Python
 
 ## 调试运行 与 Cpp 一致
+
